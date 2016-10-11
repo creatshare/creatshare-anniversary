@@ -20,4 +20,4 @@
 
 > 完成这几步，还怕什么竞争压力呢。
 
-![./CreatShare-logo-powerby.png]
+![CreatShare](./CreatShare-logo-powerby.png)
