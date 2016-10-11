@@ -19,3 +19,5 @@
 * 拥有自己的个人博客
 
 > 完成这几步，还怕什么竞争压力呢。
+
+![./CreatShare-logo-powerby.png]
