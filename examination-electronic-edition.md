@@ -1,6 +1,7 @@
 # 技术类
 
 * 加分：将笔试题答案提交到 github 上对下方仓库链接进行 Pull Request：
+
 > https://github.com/creatshare-demos/CreatShare-5th-Anniversary.git
 
 ## 基础部分
