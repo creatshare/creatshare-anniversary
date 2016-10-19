@@ -4,11 +4,15 @@
 
 欢迎在这里提交你的笔试题亦或一面/二面作业。
 
+## 笔试题电子版原版
+
+> [笔试题电子版原版](./examination-electronic-edition.md)
+
 ## 提交方式
 * Fork 本仓库到自己的仓库中
 * 克隆自己的仓库至本地
 * 在该文件根目录下建立自己的文件夹 -- 命名
-* 自己的文件夹里面放入自己的笔试题结果 -- markdown 写
+* 自己的文件夹里面放入自己的笔试题及结果 -- markdown 写
 * 自己的文件夹里面放入自己的简介 -- markdown 写
 * git add, git commit, git push, pull request
 
