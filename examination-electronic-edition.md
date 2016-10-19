@@ -134,6 +134,8 @@ int main() {
 
 10.1. 代码实现下图所示布局。
 
+![CreatShare-FE-demo](./CreatShare-FE-demo.jpeg)
+
 10.2. 搭建开发环境，本地环境用 Post 方法向后台发送如下数据。如果是以下内容则返回“Happy 5 Anniversary!”，否则返回“error”。
 ```
 {
