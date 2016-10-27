@@ -11,16 +11,10 @@ app.use(bodyParser.json());
 
 app.post('/user', function (req, res) {
 
-  if (req.body = [{
-        name: "CreatShare",
-        anniversary: 5,
-        year: 2016
-      }])
-  {
-
-    res.send({data: "Happy 5 Anniversary"});
+  if ((req.body.name === "CreatShare") && (req.body.anniversary === 5) && (req.body.year === 2016)) {
+    res.send("Happy 5 Anniversary");
   } else {
-    res.send({data: "error"});
+    res.send("error");
   }
 
 });
@@ -28,6 +22,6 @@ app.post('/user', function (req, res) {
 
 var server = app.listen(3000, function () {
 
-  console.log('Example app listening  at http: 3000');
+  console.log('Sever is listening  at localhost: 3000');
 });
 
