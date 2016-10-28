@@ -12,15 +12,17 @@
         }
 
         #container {
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
+            display: flex;
+            height: 400px;
+            flex-direction: column;
+            align-items: center;
+            margin: 50px;
         }
 
         .item {
             border-radius: 50px;
             background: #8c8c8c;
-            margin: 45px auto;
+            margin: 15px;
             width: 500px;
             height: 70px;
             font-size: 24px;
@@ -66,14 +68,14 @@
 <body>
 <div id="head"><span id="logo">CREATSHARE</span> <span id="enter">Enter</span></div>
 
-<div id="main">
-    <div id="container">
-        <div class="item">前端开发</div>
-        <div class="item">后端开发</div>
-        <div class="item">产品助理</div>
-        <div class="item">视觉设计</div>
-    </div>
+
+<div id="container">
+    <div class="item">前端开发</div>
+    <div class="item">后端开发</div>
+    <div class="item">产品助理</div>
+    <div class="item">视觉设计</div>
 </div>
+
 <div id="foot">CREATSHARE @FZ104</div>
 
 </body>
