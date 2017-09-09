@@ -1,4 +1,4 @@
-# CreatShare 实验室 2016 年纳新笔试题提交仓库
+# CreatShare 实验室 2017 纳新笔试题提交仓库
 
 > 在一路的纳新过关斩将中，你，到了这里。
 
@@ -6,9 +6,16 @@
 
 ## 笔试题电子版原版
 
-> [笔试题电子版原版](./examination-electronic-edition.md)
+### 2016 年
+
+> [笔试题电子版原版](./2015-6th/examination-electronic-edition.md)
+
+### 2017 年
+
+> To be continue...
 
 ## 提交方式
+
 * Fork 本仓库到自己的仓库中
 * 克隆自己的仓库至本地
 * 在该文件根目录下建立自己的文件夹 -- 命名
@@ -20,8 +27,8 @@
 * git add, git commit, git push, pull request
 
 ## 加分项
-* 完成这个仓库挑战
-* 将自己的笔试题结果写成博客形式(心路 + 干货)
+
+* 认真完成这个仓库挑战
 * git commit 小步提交
 * 拥有自己的个人博客
 
