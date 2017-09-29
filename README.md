@@ -8,11 +8,11 @@
 
 ### 2016 年
 
-> [笔试题电子版原版](./2015-6th/examination-electronic-edition.md)
+> [笔试题电子版原版](./2015-6th/examination.md)
 
 ### 2017 年
 
-> To be continue...
+> [笔试题电子版原版](./examination.md)
 
 ## 提交方式
 
