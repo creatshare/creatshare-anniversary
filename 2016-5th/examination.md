@@ -9,7 +9,7 @@
 1. C 标准定义的关键字都有哪些？分别有什么用？
 2. 以下式子的值为多少？为什么？
 ```
-int Anniversary = (2016, ((0x01 << (int)2.0) + sizeof(char)));
+int Anniversary = (2016, ((0x01 << (int)2.0) sizeof(char)));
 ```
 3. -0 和+0 在计算机里以什么形式存储？这样存储有必要吗？
 4. struct 与 class 有什么区别？
@@ -86,48 +86,46 @@ int main() {
 9. 有下列 JavaScript 代码，判断其运行后 console.log() 所显示的值，并解释原因(均为非严格模式)
 
 ```
-  <button id="s" onclick="console.log(this)"></button>
-  <script>console.log(this)</script>
-  <script>
-  	function a(){
-	    console.log(this);
- 	}
-	new a();
-   </script>
-  <script>
-  	var a = {};
-	  a.print = function(){
-              console.log(this);
-	  }
-       a.print();
-  </script>
-  <script>
-  	function a(name){
-            this.name = name;
-	}
+<button id="s" onclick="console.log(this)"></button>
+<script>console.log(this)</script>
+<script>
+  function a () {
+    console.log(this)
+  }
+  new a()
+</script>
+<script>
+  var a = {}
+  a.print = function () {
+    console.log(this)
+  }
+  a.print()
+</script>
+<script>
+  function a (name) {
+    this.name = name
+  }
 
-  	a.prototype.print = function(){
-    	    console.log(this.name);
-  	}
+  a.prototype.print = function(){
+    console.log(this.name)
+  }
 
-  	var q = new a('foo');
-  	var x = new a('bar’);
+  var q = new a('foo')
+  var x = new a('bar')
 
-  	q.print();
-  	x.print();
-   </script>
-   <script>
-	function a(name){}
-
-	a.prototype.print = function(){
-	    ;(function(){
-            	console.log(this);
-	    })();
-   	}
-
-	var q = new a();
-	q.print();
-   </script>
+  q.print()
+  x.print()
+</script>
+<script>
+  function a (name) {}
+  a.prototype.print = function () {
+    (function() {
+      console.log(this)
+    })()
+  }
+  var q = new a()
+  q.print()
+</script>
 ```
 
 如果最后一段代码的 this 不指向 a 的实例，如何让其指向 a 的实例？
